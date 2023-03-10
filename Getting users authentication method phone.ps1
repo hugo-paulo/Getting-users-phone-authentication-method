@@ -29,3 +29,7 @@ Update-MgUserAuthenticationPhoneMethod -UserId $userId -PhoneAuthenticationMetho
 
 #use this command to filter user with mobile phone as default MFA method
 Get-MgReportAuthenticationMethodUserRegistrationDetail -all
+
+
+#Link on throttling limits for MS Grah
+https://github.com/microsoftgraph/microsoft-graph-docs/blob/main/concepts/throttling-limits.md
